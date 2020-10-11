@@ -24,8 +24,8 @@ router.get('/services', function(req, res, next) {
 });
 
 /* GET Projects page. */
-router.get('/projects', function(req, res, next) {
-  res.render('index',  { title: 'Projects' ,});
+router.get('/products', function(req, res, next) {
+  res.render('index',  { title: 'Products' ,});
 });
 
 /* GET Contact us page. */
