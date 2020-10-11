@@ -14,13 +14,18 @@ router.get('/home', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('index',  { title: 'About' ,});
 });
-/* GET Products page. */
+/* GET Projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('index',  { title: 'Projects' ,});
+  res.render('index',  { title: 'projects' ,});
 });
 /* GET services page. */
 router.get('/services', function(req, res, next) {
   res.render('index',  { title: 'Services' ,});
+});
+
+/* GET Projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('index',  { title: 'Projects' ,});
 });
 
 /* GET Contact us page. */

@@ -13,6 +13,19 @@
       <h1 class="display-4">Welcome to Harsimran's <%= title%> page</h1>
      
     </div>
+
+    <% if (title=="Home")  
+    {%>
+      <%- include partials/home.ejs %>  
+   <% }
+   %>
+
+
+    <% if (title=="About")  
+    {%>
+      <%- include partials/about.ejs %>  
+   <% }
+   %>
    
   </main>
  
