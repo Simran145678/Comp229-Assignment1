@@ -15,22 +15,27 @@ router.get('/about', function(req, res, next) {
   res.render('index',  { title: 'About' ,});
 });
 /* GET Projects page. */
-router.get('/projects', function(req, res, next) {
-  res.render('index',  { title: 'projects' ,});
-});
+/* router.get('/projects', function(req, res, next) {
+  res.render('index',  { title: 'Projects' ,});
+}); */
 /* GET services page. */
 router.get('/services', function(req, res, next) {
   res.render('index',  { title: 'Services' ,});
 });
 
 /* GET Projects page. */
-router.get('/products', function(req, res, next) {
-  res.render('index',  { title: 'Products' ,});
+router.get('/Projects', function(req, res, next) {
+  res.render('index',  { title: 'Projects' ,});
 });
 
 /* GET Contact us page. */
 router.get('/contact', function(req, res, next) {
   res.render('index',  { title: 'Contact' ,});
+});
+
+/* GET Contact us page. */
+router.get('/project', function(req, res, next) {
+  res.render('index',  { title: 'Project' ,});
 });
 
 module.exports = router;
